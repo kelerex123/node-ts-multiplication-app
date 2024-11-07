@@ -24,7 +24,7 @@ export class ServerApp {
 
         (wasCreated)
             ? console.log("The File was created")
-            : console.log("The File was not created")
+            : console.error("The File was not created")
 
     }
 
